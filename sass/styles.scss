@@ -7,6 +7,18 @@ body {
 }
 
 .container {
-    max-width: 980px;
+    max-width: 1200px;
     margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.left {
+    max-width:490px; 
+    img {
+       height: 90px; 
+    }
+    
 }

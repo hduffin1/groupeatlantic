@@ -1,6 +1,20 @@
 .plane-svg {
     fill: #fff;
 }
+
+.pin {
+    position: fixed;
+    top: 0; 
+    bottom: 0;
+    max-width: 750px;
+    right: 0;
+    fill: #fff;
+    svg {
+        height: 350px;
+    }
+    
+}
+
 .plane {
     animation-delay: 6.4s;
 }

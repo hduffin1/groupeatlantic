@@ -2,6 +2,18 @@
   fill: #fff;
 }
 
+.pin {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  max-width: 750px;
+  right: 0;
+  fill: #fff;
+}
+.pin svg {
+  height: 350px;
+}
+
 .plane {
   animation-delay: 6.4s;
 }
@@ -267,8 +279,19 @@ body {
 }
 
 .container {
-  max-width: 980px;
+  max-width: 1200px;
   margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.left {
+  max-width: 490px;
+}
+.left img {
+  height: 90px;
 }
 
 /*# sourceMappingURL=css.css.map */
