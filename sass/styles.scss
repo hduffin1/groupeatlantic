@@ -1,0 +1,12 @@
+@import'plane';
+
+$purple: #3c2a66;
+
+body {
+    background-color: $purple;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+}
