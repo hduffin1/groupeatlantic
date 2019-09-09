@@ -368,10 +368,21 @@ h1 {
   font-style: normal;
 }
 
+h2 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+}
+
 p {
   font-family: proxima-nova, sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  line-height: 22px;
 }
 
 body {
@@ -417,15 +428,17 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .social-media-btn {
   height: 30px;
   fill: #fff;
-  margin-left: auto;
-  margin-right: auto;
-  display: inline-block;
+}
+
+.small-print {
+  width: 40%;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=css.css.map */

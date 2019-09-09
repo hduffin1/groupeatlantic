@@ -42,6 +42,10 @@
         padding: 0;
     }
 
+    .social-media-icons {
+        width: 90%;
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
