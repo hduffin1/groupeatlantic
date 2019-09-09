@@ -412,4 +412,20 @@ body {
   text-align: center;
 }
 
+.social-media-icons {
+  width: 6.5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 200px;
+}
+
+.social-media-btn {
+  height: 30px;
+  fill: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
 /*# sourceMappingURL=css.css.map */
