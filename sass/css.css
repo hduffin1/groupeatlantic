@@ -217,7 +217,7 @@
 }
 
 .pin {
-  margin-top: 90px;
+  margin-top: 150px;
   width: 25vw;
   fill: #fff;
 }
@@ -394,6 +394,12 @@ body {
   margin: 0 auto;
 }
 
+.bottom-container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
 .flex {
   display: flex;
 }
@@ -416,7 +422,7 @@ body {
 }
 
 .right {
-  margin-top: 20%;
+  margin-top: 17%;
   padding: 50px 50px;
   width: 50%;
   color: #fff;
@@ -424,20 +430,17 @@ body {
 }
 
 .social-media-icons {
-  width: 6.5%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  margin-top: 100px;
+  display: flex;
+  justify-content: center;
 }
 
 .social-media-btn {
   height: 30px;
   fill: #fff;
+  padding: 6px;
 }
 
 .small-print {
-  width: 40%;
   margin: 0 auto;
 }
 

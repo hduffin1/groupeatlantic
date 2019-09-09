@@ -9,6 +9,7 @@
         width: 50vw;
         order: 2;
         margin-top: 0;
+        height: 250px;
     }
 
     .copy-container {
@@ -20,6 +21,7 @@
         width: 50vw;
         order: 3;
         margin-top: 0;
+        height: 250px;
     }
 
     .left {
@@ -43,7 +45,11 @@
     }
 
     .social-media-icons {
-        width: 90%;
+        margin-top: 0;
+    }
+
+    .small-print {
+        width: 90%
     }
 
 }
