@@ -1,4 +1,5 @@
 @import'plane';
+@import'pin';
 @import'fonts';
 
 $purple: #3c2a66;
@@ -8,7 +9,7 @@ body {
 }
 
 .container {
-    max-width: 1000px;
+    width: 100vw;
     margin: 0 auto;
 }
 
@@ -19,16 +20,21 @@ body {
 .left {
     margin-top: 20%;
     padding: 100px 50px;
-    max-width:500px; 
+    width:50%; 
     border-right: solid 1px #fff;
     img {
        height: 200px; 
     }
 }
 
+.copy-container {
+    width: 50vw;
+}
+
 .right {
     margin-top: 20%;
     padding: 100px 50px;
-    max-width:500px; 
+    width: 50%; 
     text-align: center;
+    color: #fff;
 }
