@@ -397,6 +397,7 @@ body {
   height: 200px;
   margin-left: auto;
   margin-right: auto;
+  display: block;
 }
 
 .copy-container {
@@ -408,8 +409,7 @@ body {
   padding: 50px 50px;
   width: 50%;
   color: #fff;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
 }
 
 /*# sourceMappingURL=css.css.map */
