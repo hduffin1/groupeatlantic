@@ -388,6 +388,7 @@ p {
 
 body {
   background-color: #3c2a66;
+  overflow: hidden;
 }
 
 h1, h2, h3, h4, p {
