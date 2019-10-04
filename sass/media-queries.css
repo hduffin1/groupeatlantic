@@ -2,15 +2,19 @@
 @media only screen and (max-width: 600px) {
 
     body {
-        margin: 0;
+        margin: 15px;
     }
 
     .flex {
         flex-wrap: wrap;
     }
 
+    .container {
+        width: auto;
+    }
+
     .plane {
-        width: 50vw;
+        width: 45vw;
         order: 2;
         margin-top: 0;
         height: 250px;
@@ -22,7 +26,7 @@
     }
 
     .pin {
-        width: 50vw;
+        width: 45vw;
         order: 3;
         margin-top: 0;
         height: 250px;
@@ -61,7 +65,7 @@
 and (max-width: 768px) {
 
     body {
-        margin: 0;
+        margin: 15px;
     }
 
     .flex {
@@ -69,7 +73,7 @@ and (max-width: 768px) {
     }
 
     .plane {
-        width: 50vw;
+        width: 47vw;
         order: 2;
         margin-top: 0;
         height: 250px;
@@ -80,8 +84,12 @@ and (max-width: 768px) {
         order: 1;
     }
 
+    .container {
+        width: auto;
+    }
+
     .pin {
-        width: 50vw;
+        width: 47vw;
         order: 3;
         margin-top: 0;
         height: 250px;

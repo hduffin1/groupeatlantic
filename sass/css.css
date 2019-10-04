@@ -1,7 +1,7 @@
 .plane {
   margin-top: 250px;
   fill: #fff;
-  width: 25vw;
+  width: 30vw;
 }
 .plane svg {
   height: 380px;
@@ -218,7 +218,7 @@
 
 .pin {
   margin-top: 150px;
-  width: 25vw;
+  width: 30vw;
   fill: #fff;
 }
 .pin svg {
@@ -396,7 +396,13 @@ h1, h2, h3, h4, p {
 }
 
 p {
-  font-size: 15px;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+strong {
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 h1 {
@@ -419,7 +425,7 @@ h1 {
 }
 
 .copy-container {
-  width: 50vw;
+  width: 40vw;
 }
 
 .logo {
@@ -433,10 +439,35 @@ h1 {
 .right {
   margin-top: 50px;
   padding: 25px 25px;
-  width: 70%;
+  width: 95%;
   margin: 0 auto;
   color: #fff;
   text-align: center;
+}
+.right p {
+  margin-bottom: 20px;
+}
+
+.register-now-btn {
+  background-color: #fff;
+  padding: 5px 10px;
+  font-size: 20px;
+  width: 30%;
+  margin: 0 auto;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  border-radius: 10px;
+}
+.register-now-btn a {
+  text-decoration: none;
+}
+.register-now-btn:hover {
+  background-color: #3c2a66;
+  border: 1px solid #fff;
+  transition: 0.4s;
+}
+.register-now-btn:hover a {
+  color: #fff;
 }
 
 .social-media-icons {
@@ -452,6 +483,9 @@ h1 {
 
 .small-print {
   margin: 0 auto;
+}
+.small-print p {
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=css.css.map */
