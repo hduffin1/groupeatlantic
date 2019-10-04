@@ -126,44 +126,50 @@ and (max-width: 768px) {
 @media only screen and (min-width: 768px)
 and (max-width: 991px) {
 
-    body {
-        margin: 0;
+        body {
+        margin: 15px;
     }
-
 
     .flex {
         flex-wrap: wrap;
     }
 
     .plane {
-        width: 30vw;
+        width: 47vw;
+        order: 2;
         margin-top: 0;
         height: 250px;
     }
 
     .copy-container {
-        width: 40vw;
+        width: 100vw;
+        order: 1;
+    }
+
+    .container {
+        width: auto;
     }
 
     .pin {
-        width: 30vw;
+        width: 47vw;
+        order: 3;
         margin-top: 0;
         height: 250px;
     }
 
     .left {
-        margin-top: 70px;
+        margin-top: 50px;
         width: 100%;
         padding: 0;
         border-right: none;
     }
 
-    .logo{
-        width: 70%;
+    .logo {
+        width: 50%;
     }
 
     .right {
-        margin-top: 20px;
+        margin-top: 50px;
         width: 100%;
         text-align: center;
         padding: 0;
@@ -187,25 +193,20 @@ and (max-width: 1200px) {
     }
 
     .plane {
-        width: 25vw;
+        width: 20vw;
         margin-top: 0;
         height: 250px;
     }
 
     .copy-container {
-        width: 50vw;
+        width: 60vw;
     }
 
     .pin {
-        width: 25vw;
+        width: 20vw;
         margin-top: 0;
         height: 250px;
-    }
-
-    .left {
-        margin-top: 70px;
-        width: 50%;
-    }
+    }   
 
     .left img {
         width: 100%;
@@ -213,7 +214,6 @@ and (max-width: 1200px) {
 
     .right {
         margin-top: 20px;
-        width: 50%;
         text-align: center;
     }
 
