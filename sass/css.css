@@ -388,7 +388,6 @@ p {
 
 body {
   background-color: #3c2a66;
-  overflow: hidden;
 }
 
 h1, h2, h3, h4, p {
@@ -412,8 +411,8 @@ h1, h2, h3, h4, p {
 }
 
 .left {
-  margin-top: 20%;
-  padding: 50px 50px;
+  margin-top: 50px;
+  padding: 150px 25px;
   width: 50%;
   border-right: solid 1px #fff;
 }
@@ -429,8 +428,8 @@ h1, h2, h3, h4, p {
 }
 
 .right {
-  margin-top: 17%;
-  padding: 50px 50px;
+  margin-top: 50px;
+  padding: 25px 25px;
   width: 50%;
   color: #fff;
   text-align: center;
