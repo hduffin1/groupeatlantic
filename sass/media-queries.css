@@ -2,15 +2,19 @@
 @media only screen and (max-width: 600px) {
 
     body {
-        margin: 0;
+        margin: 15px;
     }
 
     .flex {
         flex-wrap: wrap;
     }
 
+    .container {
+        width: auto;
+    }
+
     .plane {
-        width: 50vw;
+        width: 45vw;
         order: 2;
         margin-top: 0;
         height: 250px;
@@ -22,7 +26,7 @@
     }
 
     .pin {
-        width: 50vw;
+        width: 45vw;
         order: 3;
         margin-top: 0;
         height: 250px;
@@ -61,7 +65,11 @@
 and (max-width: 768px) {
 
     body {
-        margin: 0;
+        margin: 15px;
+    }
+
+    .container {
+        width: auto;
     }
 
     .flex {
@@ -178,35 +186,43 @@ and (max-width: 1200px) {
         margin: 0;
     }
 
+
+    .flex {
+        flex-wrap: wrap;
+    }
+
     .plane {
-        width: 25vw;
+        width: 30vw;
         margin-top: 0;
         height: 250px;
     }
 
     .copy-container {
-        width: 50vw;
+        width: 40vw;
     }
 
     .pin {
-        width: 25vw;
+        width: 30vw;
         margin-top: 0;
         height: 250px;
     }
 
     .left {
         margin-top: 70px;
-        width: 50%;
+        width: 100%;
+        padding: 0;
+        border-right: none;
     }
 
-    .left img {
-        width: 100%;
+    .logo{
+        width: 70%;
     }
 
     .right {
         margin-top: 20px;
-        width: 50%;
+        width: 100%;
         text-align: center;
+        padding: 0;
     }
 
     .social-media-icons {
