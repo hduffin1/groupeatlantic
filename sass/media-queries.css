@@ -39,11 +39,29 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 601px) 
 and (max-width: 768px) {
+  .js .nav ul {
+    right: 0px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .js .nav li {
+    margin-top: 0;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px)
 and (max-width: 991px) {
+  .js .nav ul {
+    right: 0px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .js .nav li {
+    margin-top: 0;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
