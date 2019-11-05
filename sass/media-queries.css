@@ -24,6 +24,15 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .js .nav ul {
+    right: 0px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .js .nav li {
+    margin-top: 0;
+  }
 
 }
 
@@ -40,4 +49,14 @@ and (max-width: 991px) {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 991px) 
 and (max-width: 1200px) {
+
+  .js .nav ul {
+    right: 0px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .js .nav li {
+    margin-top: 0;
+  }
 }

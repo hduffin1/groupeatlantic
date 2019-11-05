@@ -392,7 +392,7 @@ header .flex {
 .nav ul li {
   padding: 15px 15px;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .nav ul a {
   text-decoration: none;
@@ -404,12 +404,13 @@ header .flex {
 
 /* Style the menu link */
 .js .nav .skip {
+  color: #fff;
+  font-family: proxima-nova, sans-serif;
   position: absolute;
-  font-weight: 600;
   right: 1em;
-  top: 0.9em;
+  top: 20px;
   overflow: hidden;
-  width: 2.9em;
+  width: 50px;
   height: 2.5em;
   text-align: center;
   line-height: 2.5em;
@@ -418,11 +419,6 @@ header .flex {
 }
 .js .nav .skip:hover {
   transition: 0.4s;
-}
-
-/* Give the .nav ul a height when it's been opened, i.e. make it show */
-.js .nav ul.open {
-  max-height: 70em;
 }
 
 /* Hide and position the closed .nav ul */
@@ -438,86 +434,21 @@ header .flex {
 /* Style the list items to appear under the menu link */
 .js nav li {
   text-align: right;
+  background-color: #3c2a66;
 }
 
 /* Style the list item links for ease of touch on small screens */
 .js nav li a {
   padding: 0.5em;
   display: block;
-}
-
-/* Style the menu link */
-.js .nav .skip {
-  position: absolute;
-  font-weight: 600;
-  right: 1.3em;
-  top: 0.9em;
-  overflow: hidden;
-  width: 2.9em;
-  height: 2.5em;
-  text-align: center;
-  line-height: 2.5em;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-family: din-2014, sans-serif;
-}
-.js .nav .skip:hover {
-  transition: 0.4s;
 }
 
 /* Give the .nav ul a height when it's been opened, i.e. make it show */
 .js .nav ul.open {
   max-height: 70em;
-}
-
-/* Hide and position the closed .nav ul */
-.js .nav ul {
-  max-height: 0;
-  overflow: hidden;
-  position: absolute;
-  right: 1em;
-  top: 3.5em;
-  transition: max-height 0.25s ease-out;
-}
-
-/* Style the list items to appear under the menu link */
-.js nav li {
-  text-align: right;
-}
-
-/* Style the list item links for ease of touch on small screens */
-.js nav li a {
-  padding: 0.5em;
-  display: block;
 }
 
 /* navigation end */
-/* On screens larger than 818px, remove the menu link and display all menu items */
-@media screen and (min-width: 600px) {
-  .js .nav ul {
-    overflow: auto;
-    max-height: inherit;
-    position: static;
-    display: flex;
-    justify-content: flex-start;
-    background-color: transparent;
-  }
-
-  .js .nav li {
-    text-align: left;
-    display: inline-block;
-    border-top: 0;
-  }
-
-  .js .nav li:last-child {
-    border: 0;
-  }
-
-  .js .nav .skip {
-    display: none;
-    visibility: hidden;
-  }
-}
 h1, h2, h3, h4, p {
   margin: 0;
   padding: 0;

@@ -29,7 +29,7 @@
       li {
           padding: 15px 15px;
           cursor: pointer;
-          margin-top: 10px;
+          margin-top: 15px;
       }
 
       a {
@@ -43,27 +43,23 @@
 
     /* Style the menu link */
     .js .nav .skip {
+      color: $white;
+      font-family: proxima-nova, sans-serif;
       position: absolute;
-      font-weight: 600;
       right: 1em;
-      top: 0.9em;
+      top: 20px;
       overflow: hidden;
-      width: 2.9em;
+      width:50px;
       height: 2.5em;
       text-align: center;
       line-height: 2.5em;
       text-transform: uppercase;
       text-decoration: none;
-
           &:hover {
               transition: .4s;
           }
       } 
 
-    /* Give the .nav ul a height when it's been opened, i.e. make it show */
-    .js .nav ul.open {
-      max-height: 70em;
-    }
 
     /* Hide and position the closed .nav ul */
     .js .nav ul {
@@ -78,6 +74,7 @@
     /* Style the list items to appear under the menu link */
     .js nav li {
       text-align: right;
+      background-color: $purple;
     }
 
     /* Style the list item links for ease of touch on small screens */
@@ -86,49 +83,8 @@
       display: block;
     }
 
-  /* Style the menu link */
-  .js .nav .skip {
-    position: absolute;
-    font-weight: 600;
-    right: 1.3em;
-    top: 0.9em;
-    overflow: hidden;
-    width: 2.9em;
-    height: 2.5em;
-    text-align: center;
-    line-height: 2.5em;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: din-2014, sans-serif;
-
-        &:hover {
-            transition: .4s;
-        }
-    } 
-
   /* Give the .nav ul a height when it's been opened, i.e. make it show */
   .js .nav ul.open {
     max-height: 70em;
-  }
-
-  /* Hide and position the closed .nav ul */
-  .js .nav ul {
-    max-height: 0;
-    overflow: hidden;
-    position: absolute;
-    right: 1em;
-    top: 3.5em;
-    transition: max-height 0.25s ease-out;
-  }
-
-  /* Style the list items to appear under the menu link */
-  .js nav li {
-    text-align: right;
-  }
-
-  /* Style the list item links for ease of touch on small screens */
-  .js nav li a {
-    padding: 0.5em;
-    display: block;
   }
 /* navigation end */
