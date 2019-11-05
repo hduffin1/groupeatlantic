@@ -1,3 +1,11 @@
+header {
+  background-color: #3c2a66;
+  height: 90px;
+}
+header .logo {
+  height: 70px;
+}
+
 .plane {
   margin-top: 250px;
   fill: #fff;
@@ -386,8 +394,13 @@ p {
   line-height: 22px;
 }
 
+.grey-bg {
+  background-color: #f2efef;
+}
+
 body {
   background-color: #3c2a66;
+  margin: 0;
 }
 
 h1, h2, h3, h4, p {
@@ -403,8 +416,13 @@ h1, h2, h3, h4, p {
   font-weight: 700;
 }
 
-.container {
+.landing-container {
   width: 100vw;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1170px;
   margin: 0 auto;
 }
 

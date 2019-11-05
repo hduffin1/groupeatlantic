@@ -1,11 +1,14 @@
+
+@import'colors';
+@import'header';
 @import'plane';
 @import'pin';
 @import'fonts';
-
-$purple: #3c2a66;
+@import'performance';
 
 body {
     background-color: $purple;
+    margin: 0;
 }
 
 h1,h2,h3,h4,p {
@@ -21,8 +24,13 @@ h1,h2,h3,h4,p {
     font-weight: 700;
 }
 
-.container {
+.landing-container {
     width: 100vw;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1170px;
     margin: 0 auto;
 }
 
