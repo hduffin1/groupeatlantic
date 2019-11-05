@@ -14,21 +14,7 @@ h2 {
     font-family: proxima-nova, sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 30px;
-}
-
-h3 {
-    font-family: proxima-nova, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 24px;
-}
-
-h4 {
-    font-family: proxima-nova, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 
@@ -36,7 +22,8 @@ p {
     font-family: proxima-nova, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    font-size: 14px;
+    color: #fff;
     text-align: center;
     line-height: 22px;
 }
