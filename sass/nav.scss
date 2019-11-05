@@ -29,7 +29,7 @@
       li {
           padding: 15px 15px;
           cursor: pointer;
-          margin-top: 20px;
+          margin-top: 10px;
       }
 
       a {
@@ -134,7 +134,7 @@
 /* navigation end */
 
 /* On screens larger than 818px, remove the menu link and display all menu items */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1200px) {
   .js .nav ul {
     overflow: auto;
     max-height: inherit; 
