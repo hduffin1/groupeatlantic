@@ -465,7 +465,14 @@ h2 {
   font-family: proxima-nova, sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 20px;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
 }
 
 p {
@@ -602,12 +609,26 @@ p {
   color: #fff;
 }
 
-.grey-bg {
-  background-color: #f2efef;
+.perf-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  margin-top: 200px;
+}
+.perf-container h1 {
+  text-transform: uppercase;
+  color: #3c2a66;
+  font-weight: 600;
+}
+
+.section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 body {
-  background-color: yellow;
+  background-color: #f2efef;
   margin: 0;
 }
 
