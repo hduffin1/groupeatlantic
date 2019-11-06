@@ -640,6 +640,9 @@ p {
 .perf-container h2, .perf-container h3 {
   padding: 20px;
 }
+.perf-container h3 {
+  padding-bottom: 0;
+}
 .perf-container p {
   padding-top: 5px;
 }
@@ -671,10 +674,6 @@ hr {
   width: 55%;
 }
 
-.info {
-  padding-top: 0;
-}
-
 .enrollment {
   width: 40%;
 }
@@ -685,7 +684,7 @@ hr {
 }
 
 .points {
-  margin-top: 50px;
+  margin-top: 42px;
   border-style: solid;
   border-width: 2px;
   border-color: #3c2a66;
@@ -698,6 +697,9 @@ hr {
 }
 .points .points-header h2 {
   color: #fff;
+}
+.points h3 {
+  padding: 0;
 }
 
 /* Extra small devices (phones, 600px and down) */
