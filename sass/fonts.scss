@@ -7,7 +7,7 @@ h1 {
     font-family: proxima-nova, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 40px;
+    font-size: 36px;
 }
 
 h2 {
@@ -15,6 +15,7 @@ h2 {
     font-weight: 500;
     font-style: normal;
     font-size: 30px;
+    color: $purple;
 }
 
 h3 {
@@ -22,23 +23,25 @@ h3 {
     font-weight: 500;
     font-style: normal;
     font-size: 24px;
+    color: $purple;
 }
 
 h4 {
     font-family: proxima-nova, sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 18px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: $purple;
 }
-
 
 p {
     font-family: proxima-nova, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    text-align: center;
     line-height: 22px;
+    color: $fontgrey; 
 }
 
 

@@ -1,24 +1,119 @@
+
+
 .perf-container {
-    max-width: 1000px;
+    max-width: 1050px;
     margin: 0 auto;
     padding: 0px 15px;
     margin-top: 200px;
 
     h1 {
-    	text-transform: uppercase;
-    	color: $purple;
-    	font-weight: 600;
+        text-transform: uppercase;
+        color: $purple;
+        font-weight: 600;
+        margin-bottom: 51px;
+    }
+
+    h2,h3 {
+        padding: 20px;
+    }
+
+    p {
+        padding-top: 5px;
+    }
+
+    hr {
+       border-width: 1px;
+        border-color: rgb(225, 224, 224);
+        border-style: solid;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .flex {
+        justify-content: space-between;
     }
 }
 
+hr {
+margin: 0;
+}
+
 %section {
-	background-color: $white;
-	padding: 20px;
-	border-radius: 10px;
+    background-color: $white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.05);
+}
+
+%padding {
+    padding: 20px;
 }
 
 .section {
-	@extend %section;
+    @extend %section;
 }
+
+.welcome {
+    width: 55%;
+}
+
+.info {
+    @extend %padding;
+    padding-top: 0;
+}
+
+.enrollment {
+    width: 40%;
+
+    .login-arg {
+        color: #00cc00;
+        padding: 28px;
+        font-weight: 600;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .perf-container {
+    margin-top: 130px;
+    }
+
+    .flex {
+        flex-wrap: wrap;
+    }
+    .welcome, .enrollment {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) 
+and (max-width: 768px) {
+    .perf-container {
+        margin-top: 130px;
+    }
+
+    .flex {
+        flex-wrap: wrap;
+    }
+
+    .welcome, .enrollment {
+        width: 48%;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .enrollment {
+        .login-arg {
+            padding-top: 0;
+        }
+    }
+
+}
+
+
+
 
 
