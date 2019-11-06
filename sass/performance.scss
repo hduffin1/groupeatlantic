@@ -4,7 +4,7 @@
     max-width: 1050px;
     margin: 0 auto;
     padding: 0px 15px;
-    margin-top: 200px;
+    margin-top: 130px;
 
     h1 {
         text-transform: uppercase;
@@ -70,11 +70,38 @@ margin: 0;
     }
 }
 
+
+.points {
+    @extend %section;
+    margin-top: 42px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: $purple;
+    border-radius: 10px;
+    background-color: $white;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.05);
+
+    .points-header {
+        background-color: $purple;
+        h2 {
+            color: $white;
+        }
+    }
+
+    h3 {
+        padding: 20px 0;
+    }
+
+    h2 {
+        padding: 0;
+    }
+}
+
+
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .perf-container {
-    margin-top: 130px;
-    }
 
     .flex {
         flex-wrap: wrap;
@@ -89,9 +116,6 @@ margin: 0;
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 601px) 
 and (max-width: 768px) {
-    .perf-container {
-        margin-top: 130px;
-    }
 
     .flex {
         flex-wrap: wrap;
@@ -109,6 +133,20 @@ and (max-width: 768px) {
         .login-arg {
             padding-top: 0;
         }
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+and (max-width: 991px) {
+
+    .flex {
+        flex-wrap: wrap;
+    }
+
+    .welcome, .enrollment {
+        width: 48%;
     }
 
 }

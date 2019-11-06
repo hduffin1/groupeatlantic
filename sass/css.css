@@ -629,7 +629,7 @@ p {
   max-width: 1050px;
   margin: 0 auto;
   padding: 0px 15px;
-  margin-top: 200px;
+  margin-top: 130px;
 }
 .perf-container h1 {
   text-transform: uppercase;
@@ -657,7 +657,7 @@ hr {
   margin: 0;
 }
 
-.section {
+.points, .section {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.05);
@@ -684,12 +684,24 @@ hr {
   font-weight: 600;
 }
 
+.points {
+  margin-top: 50px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #3c2a66;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.05);
+}
+.points .points-header {
+  background-color: #3c2a66;
+}
+.points .points-header h2 {
+  color: #fff;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .perf-container {
-    margin-top: 130px;
-  }
-
   .flex {
     flex-wrap: wrap;
   }
@@ -701,10 +713,6 @@ hr {
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 601px) and (max-width: 768px) {
-  .perf-container {
-    margin-top: 130px;
-  }
-
   .flex {
     flex-wrap: wrap;
   }
@@ -719,6 +727,16 @@ hr {
 
   .enrollment .login-arg {
     padding-top: 0;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .flex {
+    flex-wrap: wrap;
+  }
+
+  .welcome, .enrollment {
+    width: 48%;
   }
 }
 body {
