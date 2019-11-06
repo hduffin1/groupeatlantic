@@ -75,12 +75,6 @@
     .js nav li {
       text-align: right;
       background-color: $purple;
-      &:hover {
-        background-color: $bggrey;
-        a {
-          color: $purple;
-        }
-      }
     }
 
     /* Style the list item links for ease of touch on small screens */

@@ -1,5 +1,4 @@
 
-
 .perf-container {
     max-width: 1050px;
     margin: 0 auto;
@@ -93,8 +92,25 @@ hr {
 
     h3 {
         padding: 0;
+        font-weight: 600;
+        font-size: 30px;
     }
 
+    .points-calc {
+        width: 48%;
+    }
+}
+
+.totals-holder {
+    .totals {
+        @extend %section;
+        width: 31%;
+        margin-top: 42px;
+
+        h2 {
+            color: $lightpurple;
+        }
+    }
 }
 
 
@@ -111,6 +127,19 @@ hr {
         margin-bottom: 20px;
     }
 
+    .points {
+        margin-top: 0;
+        .points-calc {
+            width: 100%;
+        }
+    }
+
+    .totals-holder {
+        .totals {
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -132,6 +161,18 @@ and (max-width: 768px) {
     .enrollment {
         .login-arg {
             padding-top: 0;
+        }
+    }
+
+    .points {
+        .flex {
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        }
+
+
+        .points-calc {
+            width: 100%;
         }
     }
 

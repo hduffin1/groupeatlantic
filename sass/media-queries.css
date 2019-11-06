@@ -20,6 +20,17 @@
     display: none;
     visibility: hidden;
   }
+
+      .js nav li {
+      text-align: right;
+      background-color: $purple;
+      &:hover {
+        background-color: $bggrey;
+        a {
+          color: $purple;
+        }
+      }
+    }
 }
 
 /* Extra small devices (phones, 600px and down) */

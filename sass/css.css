@@ -436,12 +436,6 @@ header .flex {
   text-align: right;
   background-color: #3c2a66;
 }
-.js nav li:hover {
-  background-color: #f2efef;
-}
-.js nav li:hover a {
-  color: #3c2a66;
-}
 
 /* Style the list item links for ease of touch on small screens */
 .js nav li a {
@@ -660,7 +654,7 @@ hr {
   margin: 0;
 }
 
-.points, .section {
+.totals-holder .totals, .points, .section {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.05);
@@ -700,6 +694,19 @@ hr {
 }
 .points h3 {
   padding: 0;
+  font-weight: 600;
+  font-size: 30px;
+}
+.points .points-calc {
+  width: 48%;
+}
+
+.totals-holder .totals {
+  width: 31%;
+  margin-top: 42px;
+}
+.totals-holder .totals h2 {
+  color: #7e5ccf;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -711,6 +718,18 @@ hr {
   .welcome, .enrollment {
     width: 100%;
     margin-bottom: 20px;
+  }
+
+  .points {
+    margin-top: 0;
+  }
+  .points .points-calc {
+    width: 100%;
+  }
+
+  .totals-holder .totals {
+    width: 100%;
+    margin-top: 20px;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -729,6 +748,14 @@ hr {
 
   .enrollment .login-arg {
     padding-top: 0;
+  }
+
+  .points .flex {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .points .points-calc {
+    width: 100%;
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */
