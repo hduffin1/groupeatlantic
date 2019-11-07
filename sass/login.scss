@@ -1,0 +1,84 @@
+.login-bod {
+    background-color: $purple;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: $white;
+    border-radius: 10px;
+
+    .login-content {
+        padding: 25px;
+    }
+
+    .login-logo {
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    input {
+        padding: 10px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 5px;
+        border-color: $bggrey;
+        margin-bottom: 10px;
+    }
+
+    input::placeholder {
+        font-size: 16px;
+        font-family: proxima-nova, sans-serif;
+    }
+
+    .login-btn {
+        background-color: $purple;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding: 10px;
+        width: 97%;
+        font-size: 20px;
+        font-family: proxima-nova, sans-serif;
+        color: $white;
+        border-radius: 5px;
+        margin-top: 30px;
+        cursor: pointer;
+
+        a {
+            color: $white;
+            text-decoration: none;
+        }
+    }
+
+    .forgot-pass {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 16px;
+        font-family: proxima-nova, sans-serif;
+        a {
+           color: $purple;
+           text-decoration: none; 
+        }
+        
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .login-bod  {
+        margin: 15px;
+    }
+}
