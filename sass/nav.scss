@@ -37,6 +37,7 @@
           color: $white;
           &:hover {
             transition: 0.4s;
+            color: $fontgrey;
           }
       }
     }
@@ -88,3 +89,109 @@
     max-height: 70em;
   }
 /* navigation end */
+
+
+
+
+
+
+/* On screens larger than 1200px, remove the menu link and display all menu items */
+@media screen and (min-width: 1200px) {
+  .js .nav ul {
+    width: 100%;
+    overflow: auto;
+    max-height: inherit; 
+    position: static;
+    display: flex;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .js .nav li {
+    text-align: left;
+    display: inline-block;
+    border-top: 0;
+  }
+  .js .nav li:last-child {
+    border: 0;
+  }
+  .js .nav .skip {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .js .nav ul {
+    right: 0px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .js .nav li {
+    margin-top: 0;
+  }
+
+  .js nav li {
+      text-align: right;
+      background-color: $purple;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) 
+and (max-width: 768px) {
+  .js .nav ul {
+    right: 0px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .js .nav li {
+    margin-top: 0;
+  }
+
+  .js nav li {
+      text-align: right;
+      background-color: $purple;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+and (max-width: 991px) {
+  .js .nav ul {
+    right: 0px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .js .nav li {
+    margin-top: 0;
+  }
+
+    .js nav li {
+      text-align: right;
+      background-color: $purple;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 991px) 
+and (max-width: 1200px) {
+
+  .js .nav ul {
+    right: 0px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .js .nav li {
+    margin-top: 0;
+  }
+
+    .js nav li {
+      text-align: right;
+      background-color: $purple;
+  }
+}

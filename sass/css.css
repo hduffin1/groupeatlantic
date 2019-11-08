@@ -400,6 +400,7 @@ header .flex {
 }
 .nav ul a:hover {
   transition: 0.4s;
+  color: #999999;
 }
 
 /* Style the menu link */
@@ -449,6 +450,101 @@ header .flex {
 }
 
 /* navigation end */
+/* On screens larger than 1200px, remove the menu link and display all menu items */
+@media screen and (min-width: 1200px) {
+  .js .nav ul {
+    width: 100%;
+    overflow: auto;
+    max-height: inherit;
+    position: static;
+    display: flex;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+
+  .js .nav li {
+    text-align: left;
+    display: inline-block;
+    border-top: 0;
+  }
+
+  .js .nav li:last-child {
+    border: 0;
+  }
+
+  .js .nav .skip {
+    display: none;
+    visibility: hidden;
+  }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .js .nav ul {
+    right: 0px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .js .nav li {
+    margin-top: 0;
+  }
+
+  .js nav li {
+    text-align: right;
+    background-color: #3c2a66;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .js .nav ul {
+    right: 0px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .js .nav li {
+    margin-top: 0;
+  }
+
+  .js nav li {
+    text-align: right;
+    background-color: #3c2a66;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .js .nav ul {
+    right: 0px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .js .nav li {
+    margin-top: 0;
+  }
+
+  .js nav li {
+    text-align: right;
+    background-color: #3c2a66;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  .js .nav ul {
+    right: 0px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .js .nav li {
+    margin-top: 0;
+  }
+
+  .js nav li {
+    text-align: right;
+    background-color: #3c2a66;
+  }
+}
 h1, h2, h3, h4, p {
   margin: 0;
   padding: 0;
@@ -838,6 +934,33 @@ hr {
     width: 48%;
   }
 }
+.wrapper {
+  width: 100%;
+  height: 75vh;
+  overflow: hidden;
+}
+.wrapper .heading {
+  position: absolute;
+  margin-top: -430px;
+  font-size: 80px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.wrapper .subheading {
+  font-size: 40px;
+  position: absolute;
+  margin-top: -350px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.wrapper .wrapper__video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
 body {
   background-color: #f2efef;
   margin: 0;

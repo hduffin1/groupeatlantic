@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Premier Club 2021 | Welcome</title>
+    <link rel="stylesheet" type="text/css" href="sass/css.css">
+    <link rel="stylesheet" type="text/css" href="sass/animate.css">
+    <link rel="stylesheet" href="https://use.typekit.net/kba2qks.css">
+    <script>(function(H){H.className=H.className+="js"})(document.documentElement)</script>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="flex">
+            <img src="images/Ideal-logo-white.png" class="header-logo">
+            <nav class="nav">
+                <a class="skip" href="#menu">Menu</a>
+                <ul id="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Destination</a></li>
+                    <li><a href="#">Hotel</a></li>
+                    <li><a href="#">Itinerary</a></li>
+                    <li><a href="#">Activities</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">My Performance</a></li>
+                    <li><a href="#">2019 Trip</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div class="wrapper">
+
+   <video autoplay loop muted class="wrapper__video">
+      <source src="video/home-vid.webm">
+   </video>
+    <div class="container">
+        <h1 class="heading">Las Vegas</h1>
+        <h2 class="subheading">April 2021</h2>
+    </div>
+</div>
+
+
+<script>
+    var nav = document.querySelector("nav ul"),
+        navToggle = document.querySelector("nav .skip");
+    if (navToggle) {
+      navToggle.addEventListener("click",
+      function(e) {
+      if (nav.className == "open") {
+        nav.className = "";
+      } else {
+        nav.className = "open";
+      }
+      e.preventDefault();
+      }, false);
+    }
+
+    /* Any click outside of the nav element will close the menu if it's open */
+    var specifiedElement = document.querySelector('nav');
+    document.addEventListener('click', function(event) {
+      var isClickInside = specifiedElement.contains(event.target);
+      if (!isClickInside && nav.className == "open") {
+        nav.className = "";
+      } 
+    });
+</script>
+
+</body>
+</html>
