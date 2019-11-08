@@ -939,14 +939,15 @@ hr {
   height: 75vh;
   overflow: hidden;
 }
-.wrapper .heading {
+.wrapper .home-heading {
   position: absolute;
   margin-top: -430px;
   font-size: 80px;
   text-transform: uppercase;
   color: #fff;
+  animation-delay: 2s;
 }
-.wrapper .subheading {
+.wrapper .home-subheading {
   font-size: 40px;
   position: absolute;
   margin-top: -350px;

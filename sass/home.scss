@@ -3,21 +3,23 @@
   height: 75vh;
   overflow: hidden;
 
-  .heading {
+  .home-heading {
     position: absolute;
     margin-top: -430px;
     font-size: 80px;
     text-transform: uppercase;
     color: $white;
+    animation-delay: 2s;
   }
 
-  .subheading {
+  .home-subheading {
     font-size: 40px;
     position: absolute;
     margin-top: -350px;
     font-weight: 700;
     color: $white;
     text-transform: uppercase;
+    animation-delay: 2s;
   }
 }
 
