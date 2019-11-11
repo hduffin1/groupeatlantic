@@ -1,3 +1,33 @@
+main .homepage-login-btn, .login-container .login-btn {
+  background-color: #3c2a66;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 10px;
+  width: 97%;
+  font-size: 20px;
+  font-family: proxima-nova, sans-serif;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.totals-holder .totals, .points, .section {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.05);
+}
+
+main .mp-btn, main .destination-btn {
+  padding: 50px;
+  background-color: #3c2a66;
+  border-radius: 10px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .plane {
   margin-top: 250px;
   fill: #fff;
@@ -591,130 +621,6 @@ p {
   color: #999999;
 }
 
-.purple {
-  background-color: #3c2a66;
-}
-
-.date-large {
-  font-size: 20px;
-  text-transform: uppercase;
-  margin-top: 20px;
-  margin-bottom: 0;
-  font-weight: 700;
-}
-
-.landing-container {
-  width: 100vw;
-  margin: 0 auto;
-}
-
-.form-container {
-  padding-top: 30px;
-  max-width: 800px;
-  margin: 0 auto;
-}
-.form-container img {
-  width: 40%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-.form-container a {
-  color: #fff;
-}
-
-.bottom-container {
-  max-width: 600px;
-  margin: 0 auto;
-  margin-top: 30px;
-}
-
-.left {
-  margin-top: 50px;
-  padding: 150px 25px;
-  width: 50%;
-  border-right: solid 1px #fff;
-}
-.left img {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  width: 90%;
-}
-
-.copy-container {
-  width: 50vw;
-}
-
-.right {
-  margin-top: 50px;
-  padding: 25px 25px;
-  width: 50%;
-  color: #fff;
-  text-align: center;
-}
-.right h1 {
-  margin-bottom: 15px;
-}
-
-.register-now-btn {
-  background-color: #fff;
-  padding: 10px 15px;
-  font-size: 20px;
-  width: 60%;
-  margin: 0 auto;
-  font-family: proxima-nova, sans-serif;
-  font-weight: 700;
-  border-radius: 5px;
-}
-.register-now-btn a {
-  color: #3c2a66;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-.register-now-btn:hover {
-  background-color: #3c2a66;
-  border: 1px solid #fff;
-  transition: 0.4s;
-}
-.register-now-btn:hover a {
-  color: #fff;
-}
-
-.social-media-icons {
-  display: flex;
-  justify-content: center;
-}
-
-.social-media-btn {
-  height: 30px;
-  fill: #fff;
-  padding: 6px;
-}
-
-.small-print {
-  margin: 0 auto;
-}
-.small-print a {
-  color: #fff;
-}
-
-.thanks-content {
-  margin-top: 30px;
-  color: #fff;
-  text-align: center;
-}
-.thanks-content h2 {
-  margin-top: 30px;
-  color: #fff;
-  font-weight: 700;
-  font-size: 30px;
-}
-.thanks-content p {
-  margin-top: 15px;
-  color: #fff;
-}
-
 .login-bod {
   background-color: #3c2a66;
 }
@@ -754,20 +660,6 @@ p {
 .login-container input::placeholder {
   font-size: 16px;
   font-family: proxima-nova, sans-serif;
-}
-.login-container .login-btn {
-  background-color: #3c2a66;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  padding: 10px;
-  width: 97%;
-  font-size: 20px;
-  font-family: proxima-nova, sans-serif;
-  color: #fff;
-  border-radius: 5px;
-  margin-top: 30px;
-  cursor: pointer;
 }
 .login-container .login-btn a {
   color: #fff;
@@ -823,12 +715,6 @@ p {
 
 hr {
   margin: 0;
-}
-
-.totals-holder .totals, .points, .section {
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.05);
 }
 
 .info {
@@ -963,17 +849,187 @@ hr {
   height: 100%;
 }
 
-.copy-container {
+main .main-container {
   max-width: 650px;
   margin: 0 auto;
   text-align: center;
   margin-top: 118px;
 }
-.copy-container h3 {
+main .main-container h3 {
   margin-bottom: 36px;
 }
-.copy-container strong {
+main .main-container strong {
   color: #3c2a66;
+}
+main .homepage-login-btn {
+  max-width: 370px;
+}
+main .homepage-login-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+main .destination-btn {
+  background-image: url("../images/destination-btn.jpg");
+  width: 28%;
+}
+main .destination-btn h3 {
+  color: #fff;
+}
+main .mp-btn {
+  background-image: url("../images/mp-btn.jpg");
+  width: 28%;
+}
+main .mp-btn h3 {
+  color: #fff;
+}
+main .buttons {
+  justify-content: space-around;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .wrapper .home-heading {
+    font-size: 60px;
+  }
+
+  main {
+    margin: 15px;
+  }
+  main .main-container {
+    margin-top: 50px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  main {
+    margin: 15px;
+  }
+  main .main-container {
+    margin-top: 50px;
+  }
+}
+.purple {
+  background-color: #3c2a66;
+}
+
+.date-large {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.landing-container {
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.form-container {
+  padding-top: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.form-container img {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.form-container a {
+  color: #fff;
+}
+
+.bottom-container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.left {
+  margin-top: 50px;
+  padding: 150px 25px;
+  width: 50%;
+  border-right: solid 1px #fff;
+}
+.left img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 90%;
+}
+
+.copy-container {
+  width: 50vw;
+}
+
+.right {
+  margin-top: 50px;
+  padding: 25px 25px;
+  width: 50%;
+  color: #fff;
+  text-align: center;
+}
+.right h1 {
+  margin-bottom: 15px;
+}
+
+.register-now-btn {
+  background-color: #fff;
+  padding: 10px 15px;
+  font-size: 20px;
+  width: 60%;
+  margin: 0 auto;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.register-now-btn a {
+  color: #3c2a66;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.register-now-btn:hover {
+  background-color: #3c2a66;
+  border: 1px solid #fff;
+  transition: 0.4s;
+}
+.register-now-btn:hover a {
+  color: #fff;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-btn {
+  height: 30px;
+  fill: #fff;
+  padding: 6px;
+}
+
+.small-print {
+  margin: 0 auto;
+}
+.small-print a {
+  color: #fff;
+}
+
+.thanks-content {
+  margin-top: 30px;
+  color: #fff;
+  text-align: center;
+}
+.thanks-content h2 {
+  margin-top: 30px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+}
+.thanks-content p {
+  margin-top: 15px;
+  color: #fff;
 }
 
 body {

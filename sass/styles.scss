@@ -1,12 +1,14 @@
 @import'colors';
+@import'extends';
 @import'plane';
 @import'pin';
 @import'nav';
 @import'fonts';
-@import'landing';
+
 @import'login';
 @import'performance';
 @import'home';
+@import'landing';
 
 body {
     background-color: $bggrey;

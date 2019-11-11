@@ -1,0 +1,29 @@
+%purple-btn {
+	background-color: $purple;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding: 10px;
+	width: 97%;
+	font-size: 20px;
+	font-family: proxima-nova, sans-serif;
+	color: $white;
+	border-radius: 5px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+%section {
+    background-color: $white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.05);
+}
+
+%cta-btn {
+	padding: 50px;
+	background-color: $purple;
+	border-radius: 10px;
+	text-align: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
