@@ -72,6 +72,16 @@ main {
        }
     }
 
+
+    .2019-btn {
+        @extend %cta-btn;
+        background-image: url('../images/mp-btn.jpg');
+        width: 28%;
+       h3 {
+        color: $white;
+       }
+    }
+
     .buttons {
         justify-content: space-around;
     }
