@@ -1,0 +1,1057 @@
+main .homepage-login-btn, .login-container .login-btn {
+  background-color: #3c2a66;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 10px;
+  width: 97%;
+  font-size: 20px;
+  font-family: proxima-nova, sans-serif;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.totals-holder .totals, .points, .section {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.05);
+}
+
+main .lastyr-btn, main .mp-btn, main .destination-btn {
+  padding: 50px;
+  background-color: #3c2a66;
+  border-radius: 10px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.plane {
+  margin-top: 250px;
+  fill: #fff;
+  width: 25vw;
+}
+.plane svg {
+  height: 380px;
+  width: 95%;
+}
+
+.Layer_18_1_ {
+  animation-delay: 2.3s;
+}
+
+.Layer_19_1_ {
+  animation-delay: 2.35s;
+}
+
+.Layer_20_1_ {
+  animation-delay: 2.4s;
+}
+
+.Layer_21_1_ {
+  animation-delay: 2.45s;
+}
+
+.Layer_22_1_ {
+  animation-delay: 2.5s;
+}
+
+.Layer_23_1_ {
+  animation-delay: 2.55s;
+}
+
+.Layer_24_1_ {
+  animation-delay: 2.6s;
+}
+
+.Layer_25_1_ {
+  animation-delay: 2.65s;
+}
+
+.Layer_26_1_ {
+  animation-delay: 2.7s;
+}
+
+.Layer_27_1_ {
+  animation-delay: 2.75s;
+}
+
+.Layer_28_1_ {
+  animation-delay: 2.8s;
+}
+
+.Layer_29_1_ {
+  animation-delay: 2.85s;
+}
+
+.Layer_30_1_ {
+  animation-delay: 2.9s;
+}
+
+.Layer_31_1_ {
+  animation-delay: 2.95s;
+}
+
+.Layer_32_1_ {
+  animation-delay: 3s;
+}
+
+.Layer_33_1_ {
+  animation-delay: 3.05s;
+}
+
+.Layer_34_1_ {
+  animation-delay: 3.1s;
+}
+
+.Layer_35_1_ {
+  animation-delay: 3.15s;
+}
+
+.Layer_36_1_ {
+  animation-delay: 3.2s;
+}
+
+.Layer_37 {
+  animation-delay: 3.25s;
+}
+
+.Layer_38 {
+  animation-delay: 3.3s;
+}
+
+.Layer_39 {
+  animation-delay: 3.35s;
+}
+
+.Layer_40 {
+  animation-delay: 3.4s;
+}
+
+.Layer_41 {
+  animation-delay: 3.45s;
+}
+
+.Layer_42 {
+  animation-delay: 3.5s;
+}
+
+.Layer_43 {
+  animation-delay: 3.55s;
+}
+
+.Layer_44 {
+  animation-delay: 3.6s;
+}
+
+.Layer_45 {
+  animation-delay: 3.65s;
+}
+
+.Layer_46 {
+  animation-delay: 3.7s;
+}
+
+.Layer_47 {
+  animation-delay: 3.75s;
+}
+
+.Layer_48 {
+  animation-delay: 3.8s;
+}
+
+.Layer_49 {
+  animation-delay: 3.85s;
+}
+
+.Layer_50 {
+  animation-delay: 3.9s;
+}
+
+.Layer_51 {
+  animation-delay: 3.95s;
+}
+
+.Layer_52 {
+  animation-delay: 4s;
+}
+
+.Layer_53 {
+  animation-delay: 4.05s;
+}
+
+.Layer_54 {
+  animation-delay: 4.1s;
+}
+
+.Layer_55 {
+  animation-delay: 4.15s;
+}
+
+.Layer_56 {
+  animation-delay: 4.2s;
+}
+
+.Layer_57 {
+  animation-delay: 4.25s;
+}
+
+.Layer_58 {
+  animation-delay: 4.3s;
+}
+
+.Layer_59 {
+  animation-delay: 4.35s;
+}
+
+.Layer_60 {
+  animation-delay: 4.4s;
+}
+
+.Layer_61 {
+  animation-delay: 4.45s;
+}
+
+.Layer_62 {
+  animation-delay: 4.5s;
+}
+
+.Layer_63 {
+  animation-delay: 4.55s;
+}
+
+.Layer_64 {
+  animation-delay: 4.6s;
+}
+
+.Layer_65 {
+  animation-delay: 4.65s;
+}
+
+.Layer_66 {
+  animation-delay: 4.7s;
+}
+
+.Layer_67 {
+  animation-delay: 4.75s;
+}
+
+.Layer_68 {
+  animation-delay: 4.8s;
+}
+
+.Layer_3_1_ {
+  animation-delay: 4.85s;
+}
+
+.pin {
+  margin-top: 150px;
+  width: 25vw;
+  fill: #fff;
+}
+.pin svg {
+  height: 140px;
+  width: 100%;
+}
+
+.Layer_2 {
+  animation-delay: 0.5s;
+}
+
+.Layer_4 {
+  animation-delay: 0.65s;
+}
+
+.Layer_5 {
+  animation-delay: 0.7s;
+}
+
+.Layer_6 {
+  animation-delay: 0.75s;
+}
+
+.Layer_7 {
+  animation-delay: 0.8s;
+}
+
+.Layer_8 {
+  animation-delay: 0.85s;
+}
+
+.Layer_9 {
+  animation-delay: 0.9s;
+}
+
+.Layer_10 {
+  animation-delay: 0.95s;
+}
+
+.Layer_11 {
+  animation-delay: 1s;
+}
+
+.Layer_12 {
+  animation-delay: 1.05s;
+}
+
+.Layer_13 {
+  animation-delay: 1.1s;
+}
+
+.Layer_14 {
+  animation-delay: 1.15s;
+}
+
+.Layer_15 {
+  animation-delay: 1.2s;
+}
+
+.Layer_16 {
+  animation-delay: 1.25s;
+}
+
+.Layer_17 {
+  animation-delay: 1.3s;
+}
+
+.Layer_18 {
+  animation-delay: 1.35s;
+}
+
+.Layer_19 {
+  animation-delay: 1.4s;
+}
+
+.Layer_20 {
+  animation-delay: 1.45s;
+}
+
+.Layer_21 {
+  animation-delay: 1.5s;
+}
+
+.Layer_22 {
+  animation-delay: 1.55s;
+}
+
+.Layer_23 {
+  animation-delay: 1.6s;
+}
+
+.Layer_24 {
+  animation-delay: 1.65s;
+}
+
+.Layer_25 {
+  animation-delay: 1.7s;
+}
+
+.Layer_26 {
+  animation-delay: 1.75s;
+}
+
+.Layer_27 {
+  animation-delay: 1.8s;
+}
+
+.Layer_28 {
+  animation-delay: 1.85s;
+}
+
+.Layer_29 {
+  animation-delay: 1.9s;
+}
+
+.Layer_30 {
+  animation-delay: 1.95s;
+}
+
+.Layer_31 {
+  animation-delay: 2s;
+}
+
+.Layer_32 {
+  animation-delay: 2.05s;
+}
+
+.Layer_33 {
+  animation-delay: 2.1s;
+}
+
+.Layer_34 {
+  animation-delay: 2.15s;
+}
+
+.Layer_35 {
+  animation-delay: 2.2s;
+}
+
+.Layer_36 {
+  animation-delay: 2.25s;
+}
+
+/* navigation */
+header {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: #3c2a66;
+  height: 90px;
+}
+header .header-logo {
+  height: 70px;
+  padding: 10px 0;
+}
+header .flex {
+  justify-content: space-between;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.nav ul li {
+  padding: 15px 15px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.nav ul a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav ul a:hover {
+  transition: 0.4s;
+  color: #999999;
+}
+
+/* Style the menu link */
+.js .nav .skip {
+  color: #fff;
+  font-family: proxima-nova, sans-serif;
+  position: absolute;
+  right: 1em;
+  top: 20px;
+  overflow: hidden;
+  width: 50px;
+  height: 2.5em;
+  text-align: center;
+  line-height: 2.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.js .nav .skip:hover {
+  transition: 0.4s;
+}
+
+/* Hide and position the closed .nav ul */
+.js .nav ul {
+  max-height: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 1em;
+  top: 3.5em;
+  transition: max-height 1s ease-out;
+}
+
+/* Style the list items to appear under the menu link */
+.js nav li {
+  text-align: right;
+  background-color: #3c2a66;
+}
+
+/* Style the list item links for ease of touch on small screens */
+.js nav li a {
+  padding: 0.5em;
+  display: block;
+}
+
+/* Give the .nav ul a height when it's been opened, i.e. make it show */
+.js .nav ul.open {
+  max-height: 70em;
+}
+
+/* navigation end */
+/* On screens larger than 1200px, remove the menu link and display all menu items */
+@media screen and (min-width: 1200px) {
+  .js .nav ul {
+    width: 100%;
+    overflow: auto;
+    max-height: inherit;
+    position: static;
+    display: flex;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+
+  .js .nav li {
+    text-align: left;
+    display: inline-block;
+    border-top: 0;
+  }
+
+  .js .nav li:last-child {
+    border: 0;
+  }
+
+  .js .nav .skip {
+    display: none;
+    visibility: hidden;
+  }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .js .nav ul {
+    right: 0px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .js .nav li {
+    margin-top: 0;
+  }
+
+  .js nav li {
+    text-align: right;
+    background-color: #3c2a66;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .js .nav ul {
+    right: 0px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .js .nav li {
+    margin-top: 0;
+  }
+
+  .js nav li {
+    text-align: right;
+    background-color: #3c2a66;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .js .nav ul {
+    right: 0px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .js .nav li {
+    margin-top: 0;
+  }
+
+  .js nav li {
+    text-align: right;
+    background-color: #3c2a66;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  .js .nav ul {
+    right: 0px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .js .nav li {
+    margin-top: 0;
+  }
+
+  .js nav li {
+    text-align: right;
+    background-color: #3c2a66;
+  }
+}
+h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+}
+
+h2 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  color: #3c2a66;
+}
+
+h3 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  color: #3c2a66;
+}
+
+h4 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #3c2a66;
+}
+
+p {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #999999;
+}
+
+.login-bod {
+  background-color: #3c2a66;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.login-container .login-content {
+  padding: 25px;
+}
+.login-container .login-logo {
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.login-container h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.login-container input {
+  padding: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 5px;
+  border-color: #f2efef;
+  margin-bottom: 10px;
+}
+.login-container input::placeholder {
+  font-size: 16px;
+  font-family: proxima-nova, sans-serif;
+}
+.login-container .login-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+.login-container .forgot-pass {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 16px;
+  font-family: proxima-nova, sans-serif;
+}
+.login-container .forgot-pass a {
+  color: #3c2a66;
+  text-decoration: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .login-bod {
+    margin: 15px;
+  }
+}
+.perf-container {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  margin-top: 130px;
+}
+.perf-container h1 {
+  text-transform: uppercase;
+  color: #3c2a66;
+  font-weight: 600;
+  margin-bottom: 51px;
+}
+.perf-container h2, .perf-container h3 {
+  padding: 20px;
+}
+.perf-container h3 {
+  padding-bottom: 0;
+}
+.perf-container p {
+  padding-top: 5px;
+}
+.perf-container hr {
+  border-width: 1px;
+  border-color: #e1e0e0;
+  border-style: solid;
+  background-color: black;
+}
+.perf-container .flex {
+  justify-content: space-between;
+}
+
+hr {
+  margin: 0;
+}
+
+.info {
+  padding: 20px;
+}
+
+.welcome {
+  width: 56%;
+}
+
+.enrollment {
+  width: 40%;
+}
+
+.points {
+  margin-top: 42px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #3c2a66;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.05);
+}
+.points .points-header {
+  background-color: #3c2a66;
+}
+.points .points-header h2 {
+  color: #fff;
+}
+.points h3 {
+  padding: 0;
+  font-weight: 600;
+  font-size: 30px;
+}
+.points .points-calc {
+  width: 48%;
+}
+
+.totals-holder .totals {
+  width: 31%;
+  margin-top: 42px;
+}
+.totals-holder .totals h2 {
+  color: #7e5ccf;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .flex {
+    flex-wrap: wrap;
+  }
+
+  .welcome, .enrollment {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .points {
+    margin-top: 0;
+  }
+  .points .points-calc {
+    width: 100%;
+  }
+
+  .totals-holder .totals {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .flex {
+    flex-wrap: wrap;
+  }
+
+  .welcome, .enrollment {
+    width: 48%;
+  }
+
+  .info {
+    width: 100%;
+  }
+
+  .enrollment .login-arg {
+    padding-top: 0;
+  }
+
+  .points .flex {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .points .points-calc {
+    width: 100%;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .flex {
+    flex-wrap: wrap;
+  }
+
+  .welcome, .enrollment {
+    width: 48%;
+  }
+}
+.wrapper {
+  width: 100%;
+  height: 75vh;
+  overflow: hidden;
+}
+.wrapper .home-heading {
+  position: absolute;
+  margin-top: -430px;
+  font-size: 80px;
+  text-transform: uppercase;
+  color: #fff;
+  animation-delay: 1s;
+}
+.wrapper .home-subheading {
+  font-size: 40px;
+  position: absolute;
+  margin-top: -350px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  animation-delay: 1.5s;
+}
+
+.wrapper .wrapper__video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+main .main-container {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 118px;
+}
+main .main-container h3 {
+  margin-bottom: 36px;
+}
+main .main-container strong {
+  color: #3c2a66;
+}
+main .homepage-login-btn {
+  max-width: 370px;
+}
+main .homepage-login-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+main .destination-btn {
+  background-image: url("../images/destination-btn.jpg");
+  width: 28%;
+}
+main .destination-btn h3 {
+  color: #fff;
+}
+main .mp-btn {
+  background-image: url("../images/mp-btn.jpg");
+  width: 28%;
+}
+main .mp-btn h3 {
+  color: #fff;
+}
+main .lastyr-btn {
+  background-image: url("../images/mp-btn.jpg");
+  width: 28%;
+}
+main .lastyr-btn h3 {
+  color: #fff;
+}
+main .buttons {
+  justify-content: space-around;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .wrapper .home-heading {
+    font-size: 60px;
+  }
+
+  main {
+    margin: 15px;
+  }
+  main .main-container {
+    margin-top: 50px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  main {
+    margin: 15px;
+  }
+  main .main-container {
+    margin-top: 50px;
+  }
+}
+.purple {
+  background-color: #3c2a66;
+}
+
+.date-large {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.landing-container {
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.form-container {
+  padding-top: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.form-container img {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.form-container a {
+  color: #fff;
+}
+
+.bottom-container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.left {
+  margin-top: 50px;
+  padding: 150px 25px;
+  width: 50%;
+  border-right: solid 1px #fff;
+}
+.left img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 90%;
+}
+
+.copy-container {
+  width: 50vw;
+}
+
+.right {
+  margin-top: 50px;
+  padding: 25px 25px;
+  width: 50%;
+  color: #fff;
+  text-align: center;
+}
+.right h1 {
+  margin-bottom: 15px;
+}
+
+.register-now-btn {
+  background-color: #fff;
+  padding: 10px 15px;
+  font-size: 20px;
+  width: 60%;
+  margin: 0 auto;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.register-now-btn a {
+  color: #3c2a66;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.register-now-btn:hover {
+  background-color: #3c2a66;
+  border: 1px solid #fff;
+  transition: 0.4s;
+}
+.register-now-btn:hover a {
+  color: #fff;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-btn {
+  height: 30px;
+  fill: #fff;
+  padding: 6px;
+}
+
+.small-print {
+  margin: 0 auto;
+}
+.small-print a {
+  color: #fff;
+}
+
+.thanks-content {
+  margin-top: 30px;
+  color: #fff;
+  text-align: center;
+}
+.thanks-content h2 {
+  margin-top: 30px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+}
+.thanks-content p {
+  margin-top: 15px;
+  color: #fff;
+}
+
+body {
+  background-color: #f2efef;
+  margin: 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.flex {
+  display: flex;
+}
+
+/*# sourceMappingURL=css.css.map */
