@@ -6,6 +6,7 @@
         width: 100%;
         background-color: $purple;
         height: 90px;
+        transition: top 0.2s ease-in-out;
 
         .header-logo {
           height: 70px;
