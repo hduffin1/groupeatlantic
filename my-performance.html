@@ -17,13 +17,13 @@
                 <nav class="nav">
                     <a class="skip" href="#menu">Menu</a>
                     <ul id="menu">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="#">Destination</a></li>
                         <li><a href="#">Hotel</a></li>
                         <li><a href="#">Itinerary</a></li>
                         <li><a href="#">Activities</a></li>
                         <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">My Performance</a></li>
+                        <li><a href="my-performance.html">My Performance</a></li>
                         <li><a href="#">2019 Trip</a></li>
                     </ul>
                 </nav>
@@ -137,30 +137,7 @@
         </div>
     </div>
 
-<script>
-    var nav = document.querySelector("nav ul"),
-        navToggle = document.querySelector("nav .skip");
-    if (navToggle) {
-      navToggle.addEventListener("click",
-      function(e) {
-      if (nav.className == "open") {
-        nav.className = "";
-      } else {
-        nav.className = "open";
-      }
-      e.preventDefault();
-      }, false);
-    }
-
-    /* Any click outside of the nav element will close the menu if it's open */
-    var specifiedElement = document.querySelector('nav');
-    document.addEventListener('click', function(event) {
-      var isClickInside = specifiedElement.contains(event.target);
-      if (!isClickInside && nav.className == "open") {
-        nav.className = "";
-      } 
-    });
-</script>
+<script src="js/nav.js"></script>
 
 </body>
 </html>
