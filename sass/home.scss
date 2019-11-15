@@ -59,12 +59,16 @@ main {
 
     .destination-btn {
         @extend %cta-btn;
+        padding-top: 50px;
+        padding-bottom: 50px;
         background-image: url('../images/destination-btn.jpg');
         width: 26%;
     }
 
     .mp-btn {
         @extend %cta-btn;
+        padding-top: 50px;
+        padding-bottom: 50px;
         background-image: url('../images/mp-btn.jpg');
         width: 26%;
     }
@@ -72,6 +76,8 @@ main {
 
     .lastyr-btn {
         @extend %cta-btn;
+        padding-top: 50px;
+        padding-bottom: 50px;
         background-image: url('../images/2019-btn.jpg');
         width: 26%;
     }

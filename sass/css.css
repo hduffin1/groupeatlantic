@@ -445,6 +445,9 @@ header .flex {
   transition: 0.4s;
   color: #999999;
 }
+.nav ul a:active {
+  color: #999999;
+}
 
 /* Style the menu link */
 .js .nav .skip {
@@ -882,14 +885,20 @@ main .homepage-login-btn a {
   text-decoration: none;
 }
 main .destination-btn {
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-image: url("../images/destination-btn.jpg");
   width: 26%;
 }
 main .mp-btn {
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-image: url("../images/mp-btn.jpg");
   width: 26%;
 }
 main .lastyr-btn {
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-image: url("../images/2019-btn.jpg");
   width: 26%;
 }

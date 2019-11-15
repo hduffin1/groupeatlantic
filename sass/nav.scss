@@ -40,6 +40,10 @@
             transition: 0.4s;
             color: $fontgrey;
           }
+
+          &:active {
+            color: $fontgrey;
+          }
       }
     }
 
