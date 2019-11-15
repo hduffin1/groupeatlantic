@@ -40,10 +40,6 @@ hr {
     margin: 0;
 }
 
-%padding {
-    padding: 20px;
-}
-
 .section {
     @extend %section;
 }
@@ -76,6 +72,11 @@ hr {
         h2 {
             color: $white;
         }
+    }
+
+    .mp-bar {
+        @extend %padding;
+        padding-top: 30px;
     }
 
     h3 {

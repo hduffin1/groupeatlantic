@@ -10,12 +10,17 @@ main .homepage-login-btn, .login-container .login-btn {
   border-radius: 5px;
   margin-top: 30px;
   cursor: pointer;
+  width: 100%;
 }
 
 .totals-holder .totals, .points, .section {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.05);
+}
+
+.points .mp-bar, .info {
+  padding: 20px;
 }
 
 main .lastyr-btn, main .mp-btn, main .destination-btn {
@@ -725,10 +730,6 @@ hr {
   margin: 0;
 }
 
-.info {
-  padding: 20px;
-}
-
 .welcome {
   width: 56%;
 }
@@ -751,6 +752,9 @@ hr {
 }
 .points .points-header h2 {
   color: #fff;
+}
+.points .mp-bar {
+  padding-top: 30px;
 }
 .points h3 {
   padding: 0;
