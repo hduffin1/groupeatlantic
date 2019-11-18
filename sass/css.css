@@ -783,6 +783,18 @@ hr {
     flex-wrap: wrap;
   }
 
+  .welcome {
+    order: 1;
+  }
+
+  .points {
+    order: 2;
+  }
+
+  .enrollment {
+    order: 3;
+  }
+
   .welcome, .enrollment {
     width: 100%;
     margin-bottom: 20px;
