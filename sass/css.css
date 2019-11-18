@@ -421,6 +421,9 @@ header .header-logo {
 header .flex {
   justify-content: space-between;
 }
+header .nav {
+  display: none;
+}
 
 .nav ul {
   margin: 0;
@@ -704,6 +707,10 @@ p {
   padding: 0px 15px;
   margin-top: 130px;
 }
+.perf-container .title-logout {
+  display: flex;
+  justify-content: space-between;
+}
 .perf-container h1 {
   text-transform: uppercase;
   color: #3c2a66;
@@ -783,24 +790,28 @@ hr {
     flex-wrap: wrap;
   }
 
-  .welcome {
-    order: 1;
+  .title-logout {
+    flex-wrap: wrap;
   }
-
-  .points {
+  .title-logout h1 {
+    order: 2;
+  }
+  .title-logout p {
     order: 2;
   }
 
-  .enrollment {
-    order: 3;
+  .welcome {
+    width: 100%;
+    margin-bottom: 20px;
   }
 
-  .welcome, .enrollment {
+  .enrollment {
     width: 100%;
     margin-bottom: 20px;
   }
 
   .points {
+    order: 1;
     margin-top: 0;
   }
   .points .points-calc {
@@ -928,18 +939,6 @@ main .buttons .flex {
 }
 .social-med img {
   height: 25px;
-}
-
-footer .purple-band {
-  background-color: #3c2a66;
-}
-footer .purple-band p {
-  padding: 20px 0;
-  color: #fff;
-}
-footer .purple-band a {
-  color: #fff;
-  text-decoration: none;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -1113,6 +1112,19 @@ footer .purple-band a {
 .thanks-content p {
   margin-top: 15px;
   color: #fff;
+}
+
+footer .purple-band {
+  background-color: #3c2a66;
+}
+footer .purple-band p {
+  padding: 20px 0;
+  color: #fff;
+  font-size: 16px;
+}
+footer .purple-band a {
+  color: #fff;
+  text-decoration: none;
 }
 
 body {

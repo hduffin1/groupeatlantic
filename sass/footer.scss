@@ -1,0 +1,15 @@
+footer {
+    .purple-band {
+        background-color: $purple;
+        p {
+            padding: 20px 0;
+            color: $white;
+            font-size: 16px;
+        }
+
+        a {
+            color: $white;
+            text-decoration: none;
+        }
+    }
+}

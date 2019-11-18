@@ -5,6 +5,11 @@
     padding: 0px 15px;
     margin-top: 130px;
 
+    .title-logout {
+        display: flex;
+        justify-content: space-between;
+    }
+
     h1 {
         text-transform: uppercase;
         color: $purple;
@@ -111,24 +116,30 @@ hr {
         flex-wrap: wrap;
     }
 
-    .welcome {
-        order: 1;
+    .title-logout {
+        flex-wrap: wrap;
+        h1 {
+            order: 2;
+        }
+
+        p {
+            order: 2;
+        }
+
     }
 
-    .points {
-        order: 2;
-    }
-
-    .enrollment {
-        order: 3;
-    }
-
-    .welcome, .enrollment {
+    .welcome, {
         width: 100%;
         margin-bottom: 20px;
     }
 
+    .enrollment {
+        width: 100%;
+        margin-bottom: 20px;   
+    }
+
     .points {
+        order: 1;
         margin-top: 0;
         .points-calc {
             width: 100%;

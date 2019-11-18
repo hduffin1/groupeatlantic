@@ -100,21 +100,6 @@ main {
     }
 }
 
-footer {
-    .purple-band {
-        background-color: $purple;
-        p {
-            padding: 20px 0;
-            color: $white;
-        }
-
-        a {
-            color: $white;
-            text-decoration: none;
-        }
-    }
-}
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
