@@ -844,16 +844,25 @@ hr {
 }
 .wrapper {
   width: 100%;
-  height: 75vh;
+  height: 65vh;
   overflow: hidden;
 }
-.wrapper .home-heading {
+.wrapper .page-heading {
   position: absolute;
-  margin-top: -430px;
+  margin-top: 300px;
+}
+.wrapper .page-heading h1 {
   font-size: 80px;
   text-transform: uppercase;
   color: #fff;
   animation-delay: 1s;
+}
+.wrapper .page-heading h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  animation-delay: 1.5s;
 }
 .wrapper .home-subheading {
   font-size: 40px;
@@ -888,12 +897,17 @@ main .home-content .home-content-btn {
   margin-left: 0;
   text-align: center;
 }
+main .home-cta-btns {
+  margin-top: 24px;
+  width: 369px;
+}
 main .home-cta-btns a {
   text-decoration: none;
 }
 main .home-cta {
-  padding: 20px;
-  width: 369px;
+  margin-top: 24px;
+  padding: 10px;
+  text-align: left;
 }
 main .home-cta i {
   color: #3c2a66;
@@ -912,8 +926,21 @@ main .home-cta i {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .wrapper .home-heading {
+  .wrapper {
+    height: 50vh;
+  }
+  .wrapper .page-heading {
+    margin-top: 200px;
+  }
+  .wrapper .page-heading h1 {
     font-size: 60px;
+  }
+
+  main .home-content .home-content-btn {
+    margin-left: auto;
+  }
+  main .home-cta-btns {
+    width: 100%;
   }
 
   .social-med {
@@ -921,7 +948,29 @@ main .home-cta i {
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .wrapper {
+    height: 50vh;
+  }
+  .wrapper .page-heading {
+    margin-top: 200px;
+  }
+}
 /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .wrapper {
+    height: 50vh;
+  }
+  .wrapper .page-heading {
+    margin-top: 200px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .flex {
+    flex-wrap: wrap;
+  }
+}
 .purple {
   background-color: #3c2a66;
 }
