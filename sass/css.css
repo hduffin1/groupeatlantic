@@ -883,6 +883,7 @@ main .home-content strong {
 main .home-content .home-btn {
   max-width: 50%;
   margin-left: 0;
+  text-align: center;
 }
 
 .social-med {
