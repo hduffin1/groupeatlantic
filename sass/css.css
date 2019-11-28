@@ -897,6 +897,10 @@ main .home-content .home-content-btn {
   margin-left: 0;
   text-align: center;
 }
+main .home-content .home-content-btn a {
+  text-decoration: none;
+  color: #fff;
+}
 main .home-cta-btns {
   margin-top: 24px;
   width: 369px;

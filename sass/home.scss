@@ -58,6 +58,10 @@ main {
             max-width: 50%;
             margin-left: 0;
             text-align: center;
+            a {
+                text-decoration: none;
+                color: $white;
+            }
         }
     }
 
@@ -74,6 +78,11 @@ main {
         margin-top: 24px;
         padding: 10px;
         text-align: left;
+
+        .flex {
+
+        }
+
         i {
             color: $purple;
         }
