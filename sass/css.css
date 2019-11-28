@@ -1,4 +1,4 @@
-main .homepage-login-btn, .login-container .login-btn {
+main .home-content .home-btn, .login-container .login-btn {
   background-color: #3c2a66;
   margin-left: auto;
   margin-right: auto;
@@ -21,23 +21,6 @@ main .homepage-login-btn, .login-container .login-btn {
 
 .points .mp-bar, .info {
   padding: 20px;
-}
-
-main .lastyr-btn, main .mp-btn, main .destination-btn {
-  padding: 30px;
-  background-color: #3c2a66;
-  border-radius: 10px;
-  text-align: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-main .lastyr-btn a, main .mp-btn a, main .destination-btn a {
-  color: #fff;
-  text-decoration: none;
-}
-main .lastyr-btn :hover, main .mp-btn :hover, main .destination-btn :hover {
-  border-color: #fff;
-  border-width: 5px;
 }
 
 .plane {
@@ -888,46 +871,18 @@ hr {
   height: 100%;
 }
 
-main .main-container {
-  max-width: 760px;
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 118px;
-  margin-bottom: 80px;
+main {
+  margin-top: 111px;
 }
-main .main-container h3 {
-  margin-bottom: 36px;
+main .home-content {
+  max-width: 630px;
 }
-main .main-container strong {
+main .home-content strong {
   color: #3c2a66;
 }
-main .homepage-login-btn {
-  max-width: 370px;
-}
-main .homepage-login-btn a {
-  color: #fff;
-  text-decoration: none;
-}
-main .destination-btn {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-image: url("../images/destination-btn.jpg");
-  width: 26%;
-}
-main .mp-btn {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-image: url("../images/mp-btn.jpg");
-  width: 26%;
-}
-main .lastyr-btn {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-image: url("../images/2019-btn.jpg");
-  width: 26%;
-}
-main .buttons .flex {
-  justify-content: space-between;
+main .home-content .home-btn {
+  max-width: 50%;
+  margin-left: 0;
 }
 
 .social-med {
@@ -947,49 +902,12 @@ main .buttons .flex {
     font-size: 60px;
   }
 
-  main {
-    margin: 15px;
-  }
-  main .main-container {
-    margin-top: 50px;
-    margin-bottom: 30px;
-  }
-  main .destination-btn, main .mp-btn, main .lastyr-btn {
-    width: 100%;
-    margin-top: 30px;
-  }
-
   .social-med {
     padding: 50px 0;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 601px) and (max-width: 768px) {
-  main {
-    margin: 15px;
-  }
-  main .main-container {
-    margin-top: 50px;
-    margin-bottom: 30px;
-  }
-  main .destination-btn, main .mp-btn, main .lastyr-btn {
-    width: 100%;
-    margin-top: 30px;
-  }
-  main .social-med {
-    padding: 50px 0;
-  }
-}
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  main .destination-btn, main .mp-btn, main .lastyr-btn {
-    width: 100%;
-    margin-top: 30px;
-  }
-  main .social-med {
-    padding: 50px 0;
-  }
-}
 .purple {
   background-color: #3c2a66;
 }

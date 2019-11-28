@@ -30,7 +30,20 @@
 }
 
 main {
+    margin-top: 111px;
 
+    .home-content {
+        max-width: 630px;
+        strong {
+            color: $purple;
+        }
+
+        .home-btn {
+            @extend %purple-btn;
+            max-width: 50%;
+            margin-left: 0;
+        }
+    }
 }
 
 .social-med {
