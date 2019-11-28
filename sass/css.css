@@ -1,4 +1,4 @@
-main .home-content .home-btn, .login-container .login-btn {
+main .home-content .home-content-btn, .login-container .login-btn {
   background-color: #3c2a66;
   margin-left: auto;
   margin-right: auto;
@@ -13,7 +13,7 @@ main .home-content .home-btn, .login-container .login-btn {
   width: 100%;
 }
 
-.totals-holder .totals, .points, .section {
+main .home-cta, .totals-holder .totals, .points, .section {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.05);
@@ -874,16 +874,29 @@ hr {
 main {
   margin-top: 111px;
 }
+main .flex {
+  justify-content: space-between;
+}
 main .home-content {
   max-width: 630px;
 }
 main .home-content strong {
   color: #3c2a66;
 }
-main .home-content .home-btn {
+main .home-content .home-content-btn {
   max-width: 50%;
   margin-left: 0;
   text-align: center;
+}
+main .home-cta-btns a {
+  text-decoration: none;
+}
+main .home-cta {
+  padding: 20px;
+  width: 369px;
+}
+main .home-cta i {
+  color: #3c2a66;
 }
 
 .social-med {

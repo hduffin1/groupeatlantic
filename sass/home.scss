@@ -32,17 +32,36 @@
 main {
     margin-top: 111px;
 
+    .flex {
+        justify-content: space-between;
+    }
+
     .home-content {
         max-width: 630px;
         strong {
             color: $purple;
         }
 
-        .home-btn {
+        .home-content-btn {
             @extend %purple-btn;
             max-width: 50%;
             margin-left: 0;
             text-align: center;
+        }
+    }
+
+    .home-cta-btns {
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .home-cta {
+        @extend %section;
+        padding: 20px;
+        width: 369px;
+        i {
+            color: $purple;
         }
     }
 }
