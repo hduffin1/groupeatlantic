@@ -1062,14 +1062,41 @@ main .home-cta i {
 }
 
 .vegas-facts {
-  padding: 15px;
+  padding: 20px;
   margin-top: 91px;
   text-align: center;
 }
 .vegas-facts h3 {
-  padding-top: 48px;
+  padding-top: 28px;
+}
+.vegas-facts .vegas-fact {
+  margin-top: 54px;
+  padding: 20px;
+  text-align: center;
+}
+.vegas-facts .vegas-fact i {
+  color: #3c2a66;
+}
+.vegas-facts .vegas-fact h3 {
+  font-size: 20px;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    height: 50vh;
+  }
+  .wrapper .page-heading {
+    margin-top: 200px;
+  }
+  .wrapper .page-heading h1 {
+    font-size: 60px;
+  }
+
+  .vegas-facts .vegas-fact {
+    width: 100%;
+  }
+}
 footer .purple-band {
   background-color: #3c2a66;
 }
