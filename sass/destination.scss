@@ -1,6 +1,10 @@
 .vegas-facts {
     @extend %section;
     padding: 15px;
-    margin-top: 
+    margin-top: 91px;
     text-align: center;
+
+    h3 {
+        padding-top: 48px;
+    }
 }
