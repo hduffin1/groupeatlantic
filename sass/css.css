@@ -870,6 +870,9 @@ main .home-cta-btns {
 main .home-cta-btns a {
   text-decoration: none;
 }
+main .home-cta-btns p {
+  margin-top: 20px;
+}
 main .home-cta {
   margin-top: 24px;
   padding: 10px;
