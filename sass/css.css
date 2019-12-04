@@ -875,6 +875,9 @@ main .home-cta {
   padding: 10px;
   text-align: left;
 }
+main .home-cta h3 {
+  font-size: 25px;
+}
 main .home-cta i {
   color: #3c2a66;
 }
