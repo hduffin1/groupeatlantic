@@ -28,6 +28,9 @@
 
     .submit-btn {
         @extend %purple-btn;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
         a {
             color: $white;
             text-decoration: none;
