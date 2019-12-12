@@ -1107,6 +1107,10 @@ main .home-cta i {
     display: block;
   }
 }
+.contact-content {
+  max-width: 630px;
+}
+
 footer .purple-band {
   background-color: #3c2a66;
 }
