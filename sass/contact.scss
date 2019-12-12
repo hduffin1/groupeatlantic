@@ -1,3 +1,36 @@
 .contact-content {
     max-width: 630px;
+     a {
+        color: $purple;
+        font-weight: 700;
+        text-decoration: none;
+     }
+}
+
+.contact-form {
+    width: 369px;
+
+    input, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 5px;
+        border-color: $bggrey;
+        margin-bottom: 10px;
+    }
+
+    input::placeholder {
+        font-size: 16px;
+        font-family: proxima-nova, sans-serif;
+    }
+
+    .submit-btn {
+        @extend %purple-btn;
+        a {
+            color: $white;
+            text-decoration: none;
+        }
+    }
 }

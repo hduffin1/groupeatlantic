@@ -1,4 +1,4 @@
-main .home-content .home-content-btn, .login-container .login-btn {
+.contact-form .submit-btn, main .home-content .home-content-btn, .login-container .login-btn {
   background-color: #3c2a66;
   margin-left: auto;
   margin-right: auto;
@@ -1109,6 +1109,33 @@ main .home-cta i {
 }
 .contact-content {
   max-width: 630px;
+}
+.contact-content a {
+  color: #3c2a66;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.contact-form {
+  width: 369px;
+}
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 5px;
+  border-color: #f2efef;
+  margin-bottom: 10px;
+}
+.contact-form input::placeholder {
+  font-size: 16px;
+  font-family: proxima-nova, sans-serif;
+}
+.contact-form .submit-btn a {
+  color: #fff;
+  text-decoration: none;
 }
 
 footer .purple-band {
