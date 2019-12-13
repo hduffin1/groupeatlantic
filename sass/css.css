@@ -593,9 +593,6 @@ header .header-logo {
 header .flex {
   justify-content: space-between;
 }
-header .nav {
-  display: none;
-}
 
 .nav ul {
   margin: 0;
@@ -1198,7 +1195,7 @@ hr {
   width: 369px;
 }
 .contact-form input, .contact-form textarea {
-  width: 100%;
+  width: 95%;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -1206,6 +1203,8 @@ hr {
   border-radius: 5px;
   border-color: #f2efef;
   margin-bottom: 10px;
+  font-size: 16px;
+  font-family: proxima-nova, sans-serif;
 }
 .contact-form input::placeholder {
   font-size: 16px;
@@ -1221,6 +1220,13 @@ hr {
   text-decoration: none;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .contact-form {
+    width: 97%;
+    margin-top: 54px;
+  }
+}
 footer .purple-band {
   background-color: #3c2a66;
 }

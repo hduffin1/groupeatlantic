@@ -11,7 +11,7 @@
     width: 369px;
 
     input, textarea {
-        width: 100%;
+        width: 95%;
         padding: 10px;
         margin-left: auto;
         margin-right: auto;
@@ -19,6 +19,8 @@
         border-radius: 5px;
         border-color: $bggrey;
         margin-bottom: 10px;
+        font-size: 16px;
+        font-family: proxima-nova, sans-serif;
     }
 
     input::placeholder {
@@ -35,5 +37,13 @@
             color: $white;
             text-decoration: none;
         }
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .contact-form {
+        width: 97%;
+        margin-top: 54px;
     }
 }
