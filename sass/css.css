@@ -1,4 +1,4 @@
-.contact-form .submit-btn, main .home-content .home-content-btn, .login-container .login-btn {
+.contact-form .submit-btn, .login-container .login-btn, main .home-content .home-content-btn {
   background-color: #3c2a66;
   margin-left: auto;
   margin-right: auto;
@@ -13,7 +13,7 @@
   width: 100%;
 }
 
-.vegas-facts, main .home-cta, .totals-holder .totals, .points, .section {
+.vegas-facts, .totals-holder .totals, .points, .section, main .home-cta {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.05);
@@ -23,6 +23,195 @@
   padding: 20px;
 }
 
+body {
+  background-color: #f2efef;
+  margin: 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.flex {
+  display: flex;
+}
+
+.wrapper {
+  width: 100%;
+  height: 65vh;
+}
+.wrapper .home-heading {
+  position: absolute;
+  margin-top: 300px;
+}
+.wrapper .home-heading h1 {
+  font-size: 80px;
+  text-transform: uppercase;
+  color: #fff;
+  animation-delay: 1s;
+}
+.wrapper .home-heading h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  animation-delay: 1.5s;
+}
+.wrapper .page-heading {
+  position: absolute;
+  margin-top: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+.wrapper .page-heading h1 {
+  font-size: 53px;
+  text-transform: uppercase;
+  color: #fff;
+  animation-delay: 1s;
+  text-align: center;
+}
+.wrapper .page-heading h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  animation-delay: 1.5s;
+  text-align: center;
+}
+
+.wrapper .wrapper__video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.wrapper .wrapper__image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.central-content {
+  text-align: center;
+  max-width: 770px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .wrapper .page-heading {
+    margin-top: 200px;
+  }
+  .wrapper .page-heading h1 {
+    font-size: 50px;
+  }
+}
+main {
+  margin-top: 111px;
+}
+main .flex {
+  justify-content: space-between;
+}
+main .home-content {
+  max-width: 630px;
+}
+main .home-content strong {
+  color: #3c2a66;
+}
+main .home-content .home-content-btn {
+  max-width: 50%;
+  margin-left: 0;
+  text-align: center;
+}
+main .home-content .home-content-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+main .home-cta-btns {
+  margin-top: 24px;
+  width: 369px;
+}
+main .home-cta-btns a {
+  text-decoration: none;
+}
+main .home-cta-btns p {
+  margin-top: 20px;
+}
+main .home-cta {
+  margin-top: 24px;
+  padding: 10px;
+  text-align: left;
+}
+main .home-cta h3 {
+  font-size: 25px;
+}
+main .home-cta i {
+  color: #3c2a66;
+}
+
+.social-med {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 320px;
+  padding: 130px 0 57px;
+}
+.social-med img {
+  height: 25px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    height: 50vh;
+  }
+  .wrapper .home-heading {
+    margin-top: 150px;
+  }
+  .wrapper .home-heading h1 {
+    font-size: 60px;
+  }
+
+  main .home-content .home-content-btn {
+    margin-left: auto;
+  }
+  main .home-cta-btns {
+    width: 100%;
+  }
+
+  .social-med {
+    padding: 50px 0;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .wrapper {
+    height: 50vh;
+  }
+  .wrapper .home-heading {
+    margin-top: 200px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .wrapper {
+    height: 50vh;
+  }
+  .wrapper .home-heading {
+    margin-top: 200px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .flex {
+    flex-wrap: wrap;
+  }
+}
 .plane {
   margin-top: 250px;
   fill: #fff;
@@ -842,107 +1031,6 @@ hr {
     width: 48%;
   }
 }
-main {
-  margin-top: 111px;
-}
-main .flex {
-  justify-content: space-between;
-}
-main .home-content {
-  max-width: 630px;
-}
-main .home-content strong {
-  color: #3c2a66;
-}
-main .home-content .home-content-btn {
-  max-width: 50%;
-  margin-left: 0;
-  text-align: center;
-}
-main .home-content .home-content-btn a {
-  text-decoration: none;
-  color: #fff;
-}
-main .home-cta-btns {
-  margin-top: 24px;
-  width: 369px;
-}
-main .home-cta-btns a {
-  text-decoration: none;
-}
-main .home-cta-btns p {
-  margin-top: 20px;
-}
-main .home-cta {
-  margin-top: 24px;
-  padding: 10px;
-  text-align: left;
-}
-main .home-cta h3 {
-  font-size: 25px;
-}
-main .home-cta i {
-  color: #3c2a66;
-}
-
-.social-med {
-  display: flex;
-  justify-content: space-around;
-  margin: 0 auto;
-  max-width: 320px;
-  padding: 130px 0 57px;
-}
-.social-med img {
-  height: 25px;
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .wrapper {
-    height: 50vh;
-  }
-  .wrapper .home-heading {
-    margin-top: 200px;
-  }
-  .wrapper .home-heading h1 {
-    font-size: 60px;
-  }
-
-  main .home-content .home-content-btn {
-    margin-left: auto;
-  }
-  main .home-cta-btns {
-    width: 100%;
-  }
-
-  .social-med {
-    padding: 50px 0;
-  }
-}
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 601px) and (max-width: 768px) {
-  .wrapper {
-    height: 50vh;
-  }
-  .wrapper .home-heading {
-    margin-top: 200px;
-  }
-}
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .wrapper {
-    height: 50vh;
-  }
-  .wrapper .home-heading {
-    margin-top: 200px;
-  }
-}
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .flex {
-    flex-wrap: wrap;
-  }
-}
 .purple {
   background-color: #3c2a66;
 }
@@ -1090,16 +1178,6 @@ main .home-cta i {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .wrapper {
-    height: 50vh;
-  }
-  .wrapper .page-heading {
-    margin-top: 200px;
-  }
-  .wrapper .page-heading h1 {
-    font-size: 60px;
-  }
-
   .vegas-facts .vegas-fact {
     max-width: 100%;
     margin-left: auto;
@@ -1154,85 +1232,6 @@ footer .purple-band p {
 footer .purple-band a {
   color: #fff;
   text-decoration: none;
-}
-
-body {
-  background-color: #f2efef;
-  margin: 0;
-}
-
-.container {
-  max-width: 1170px;
-  margin: 0 auto;
-  padding: 0px 15px;
-}
-
-.flex {
-  display: flex;
-}
-
-.wrapper {
-  width: 100%;
-  height: 65vh;
-}
-.wrapper .home-heading {
-  position: absolute;
-  margin-top: 300px;
-}
-.wrapper .home-heading h1 {
-  font-size: 80px;
-  text-transform: uppercase;
-  color: #fff;
-  animation-delay: 1s;
-}
-.wrapper .home-heading h2 {
-  font-size: 40px;
-  font-weight: 700;
-  color: #fff;
-  text-transform: uppercase;
-  animation-delay: 1.5s;
-}
-.wrapper .page-heading {
-  position: absolute;
-  margin-top: 300px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-}
-.wrapper .page-heading h1 {
-  font-size: 53px;
-  text-transform: uppercase;
-  color: #fff;
-  animation-delay: 1s;
-  text-align: center;
-}
-.wrapper .page-heading h2 {
-  font-size: 24px;
-  font-weight: 700;
-  color: #fff;
-  text-transform: uppercase;
-  animation-delay: 1.5s;
-  text-align: center;
-}
-
-.wrapper .wrapper__video {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-.wrapper .wrapper__image {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-
-.central-content {
-  text-align: center;
-  max-width: 770px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
 
 /*# sourceMappingURL=css.css.map */
