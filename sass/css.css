@@ -1182,6 +1182,40 @@ hr {
     display: block;
   }
 }
+.gallery a {
+  text-decoration: none;
+}
+.gallery .old-trip-img {
+  width: 24%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .gallery a {
+    text-decoration: none;
+  }
+  .gallery .old-trip-img {
+    width: 100%;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .gallery a {
+    text-decoration: none;
+  }
+  .gallery .old-trip-img {
+    width: 48%;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .gallery a {
+    text-decoration: none;
+  }
+  .gallery .old-trip-img {
+    width: 32%;
+  }
+}
 .contact-content {
   max-width: 630px;
 }
