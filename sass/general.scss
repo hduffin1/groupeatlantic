@@ -92,10 +92,53 @@ body {
 
     .wrapper{
         .page-heading {
-            margin-top: 200px;
+            margin-top: 30%;
             h1 {
                 font-size:50px;
             }
         }
     }
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) 
+and (max-width: 768px) {
+    .wrapper{
+        .page-heading {
+            margin-top: 30%;
+            h1 {
+                font-size:50px;
+            }
+        }
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+and (max-width: 991px) {
+    .wrapper{
+        .page-heading {
+            margin-top: 30%;
+            h1 {
+                font-size:50px;
+            }
+        }
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 992px)
+and (max-width: 1200px) {
+    .wrapper{
+        .page-heading {
+            margin-top: 20%;
+            h1 {
+                font-size:50px;
+            }
+        }
+    }
+}
+
+
+
+
