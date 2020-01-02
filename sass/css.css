@@ -44,7 +44,7 @@ body {
 }
 .wrapper .home-heading {
   position: absolute;
-  margin-top: 300px;
+  margin-top: 12%;
 }
 .wrapper .home-heading h1 {
   font-size: 80px;
@@ -61,7 +61,7 @@ body {
 }
 .wrapper .page-heading {
   position: absolute;
-  margin-top: 300px;
+  margin-top: 12%;
   margin-left: auto;
   margin-right: auto;
   left: 0;
