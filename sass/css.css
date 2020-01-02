@@ -1209,11 +1209,21 @@ hr {
     display: block;
   }
 }
+.gallery {
+  margin-top: 20px;
+}
 .gallery a {
   text-decoration: none;
 }
 .gallery .old-trip-img {
   width: 24%;
+}
+
+.quotes {
+  margin-top: 50px;
+}
+.quotes h3 {
+  font-style: italic;
 }
 
 /* Extra small devices (phones, 600px and down) */
