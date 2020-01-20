@@ -907,6 +907,18 @@ p {
   display: flex;
   justify-content: space-between;
 }
+.perf-container .title-logout .logout-btn {
+  background-color: #3c2a66;
+  padding: 13px;
+  font-size: 20px;
+  font-family: proxima-nova, sans-serif;
+  border-radius: 5px;
+  height: 25px;
+}
+.perf-container .title-logout .logout-btn p {
+  color: #fff;
+  padding: 0;
+}
 .perf-container h1 {
   text-transform: uppercase;
   color: #3c2a66;
