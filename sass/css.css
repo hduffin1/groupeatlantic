@@ -1,4 +1,4 @@
-main .home-content .home-content-btn, .login-container .login-btn {
+.hotel-btn, main .home-content .home-content-btn, .login-container .login-btn {
   background-color: #3c2a66;
   margin-left: auto;
   margin-right: auto;
@@ -403,9 +403,6 @@ header .header-logo {
 }
 header .flex {
   justify-content: space-between;
-}
-header .nav {
-  display: none;
 }
 
 .nav ul {
@@ -1105,6 +1102,50 @@ main .home-cta i {
     margin-left: auto;
     margin-right: auto;
     display: block;
+  }
+}
+.hotel-btn {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.hotel-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hotel-gallery-holder {
+  margin-top: 71px;
+  text-align: center;
+}
+.hotel-gallery-holder h3 {
+  margin-bottom: 42px;
+}
+.hotel-gallery-holder .flex {
+  flex-wrap: wrap;
+}
+.hotel-gallery-holder .hotel-gall-img {
+  width: 31%;
+  margin-bottom: 35px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .hotel-btn {
+    max-width: 80%;
+  }
+
+  .hotel-gallery-holder .hotel-gall-img {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .hotel-gallery-holder .hotel-gall-img {
+    width: 47%;
+    margin-bottom: 35px;
   }
 }
 footer .purple-band {
