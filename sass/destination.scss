@@ -25,17 +25,6 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-    .wrapper{
-        height: 50vh;
-
-        .page-heading {
-            margin-top: 200px;
-            h1 {
-                font-size: 60px;
-            }
-        }
-    }
-
     .vegas-facts {
         .vegas-fact {
             max-width: 100%;

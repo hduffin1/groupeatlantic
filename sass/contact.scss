@@ -1,0 +1,49 @@
+.contact-content {
+    max-width: 630px;
+     a {
+        color: $purple;
+        font-weight: 700;
+        text-decoration: none;
+     }
+}
+
+.contact-form {
+    width: 369px;
+
+    input, textarea {
+        width: 95%;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 5px;
+        border-color: $bggrey;
+        margin-bottom: 10px;
+        font-size: 16px;
+        font-family: proxima-nova, sans-serif;
+    }
+
+    input::placeholder {
+        font-size: 16px;
+        font-family: proxima-nova, sans-serif;
+    }
+
+    .submit-btn {
+        @extend %purple-btn;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        a {
+            color: $white;
+            text-decoration: none;
+        }
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .contact-form {
+        width: 97%;
+        margin-top: 54px;
+    }
+}
