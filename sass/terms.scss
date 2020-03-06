@@ -1,0 +1,25 @@
+.terms-content {
+	margin-top: 50px;
+
+	.terms-col {
+		width: 45%;
+
+		ol li {
+			font-family: proxima-nova, sans-serif;
+    		font-weight: 400;
+   			font-style: normal;
+    		font-size: 16px;
+    		line-height: 22px;
+    		color: $fontgrey; 
+		}
+	}
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.terms-content {
+		.terms-col {
+			width: 100%;
+		}
+	}
+}

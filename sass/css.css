@@ -1355,6 +1355,27 @@ hr {
     margin-top: 54px;
   }
 }
+.terms-content {
+  margin-top: 50px;
+}
+.terms-content .terms-col {
+  width: 45%;
+}
+.terms-content .terms-col ol li {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #999999;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .terms-content .terms-col {
+    width: 100%;
+  }
+}
 footer .purple-band {
   background-color: #3c2a66;
 }
