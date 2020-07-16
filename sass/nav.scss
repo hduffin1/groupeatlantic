@@ -33,6 +33,10 @@
           margin-top: 15px;
       }
 
+      li:nth-child(5){
+          display: none;
+      }
+
       a {
           text-decoration: none;
           color: $white;

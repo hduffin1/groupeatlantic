@@ -636,6 +636,9 @@ header .flex {
   cursor: pointer;
   margin-top: 15px;
 }
+.nav ul li:nth-child(5) {
+  display: none;
+}
 .nav ul a {
   text-decoration: none;
   color: #fff;
